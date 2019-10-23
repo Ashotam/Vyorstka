@@ -19,12 +19,7 @@ function handleChange(e) {
 
     }
     else {
-
-
-
-
         console.log(val);
-
         input.style.borderColor = "black";
         button.disabled = false;
     }
