@@ -1,0 +1,674 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+​
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+​
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+​
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    outline: none !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+​
+input {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+​
+button,
+a {
+    cursor: pointer;
+    text-decoration: none !important;
+    border: 0;
+    display: inline-block;
+}
+​
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+​
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    background: #fff;
+    font-family: Roboto;
+}
+
+.conteiner{
+  max-width: 1440px;
+}
+.header{
+
+    max-width: 1440px;
+    text-align: center;
+    border-bottom: 1px solid #297FCA ;
+    background-color: #E4F1FD;
+}
+.logo{
+  margin-top: 130px;
+}
+.h1{
+
+    width: 39%;
+    margin: 60px auto auto auto;
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #297FCA;
+
+}
+.paragraf{
+    width: 39%;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #297FCA;
+    margin:10px auto auto auto;
+    text-align: center;
+}
+.header > button{
+    width: 24%;
+    height: 60px;
+    margin: 60px auto;
+    background-color: #3FA2F7;
+
+}
+.border{
+    height: 10px;
+    margin: 127px 0 9px 0;
+    border-top: 1px solid;
+    color: #3FA2F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconsDivContein{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconsDiv{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.oneHeaderDiv{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #297FCA;
+    margin:30px 0 50px 0 ;
+    text-align: center;
+}
+
+.oneHeaderDiv2 {
+    color:#297FCA ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.Contains1{
+
+    text-align: center;
+    margin:100px auto 101px auto;
+}
+.Contains1>img{
+    margin-bottom: 40px;
+}
+.Contains1text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #297FCA;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+}
+.Contains2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Contains2Div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Contains2Text>h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: -2px;
+    color: #297FCA;
+    margin-bottom:10px;
+
+}
+
+.Contains2Text > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #297FCA;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+}
+.Contains2Video{
+    width: 39%;
+    min-width: 300px;
+    height: 400px;
+    background-color:#E4F1FD ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Contains2Video >img{
+    width: 57px;
+    height: 90px;
+}
+.Contains2Text{
+
+    align-items: flex-start;
+    margin-right: 30px;
+}
+.Contents3conteiner{
+
+
+    text-align: center;
+
+}
+.Contents3conteiner>h3{
+    margin-top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #297FCA;
+}
+.Contents3text{
+    margin-top: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: #297FCA;
+}
+.small{
+    margin-top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #297FCA;
+}
+.extrasmall{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #297FCA;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 174px;
+
+}
+.Form8 >h3{
+    margin-top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #297FCA;
+}
+.Form8{
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #297FCA;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    background-position: center;
+}
+.Form8 > button {
+    width: 149px;
+    height: 60px;
+    background-color: #3FA2F7;
+    border:none;
+    margin-top: 40px;
+}
+.Form8small{
+    margin-top: 80px;
+    margin-bottom: 208px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #297FCA;
+
+}
+.Form9{
+    background-color: #E4F1FD;
+    padding:80px 150px 87px 150px;
+
+}
+.Form9Conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input1{
+   width:652px;
+    height: 60px;
+    position: relative;
+
+}
+
+.Form9input{
+    width: 100%;
+    height:60px;
+    background: url(img/Icon.jpg) no-repeat scroll 20px 21px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+.Form9Button{
+    width: 33%;
+    height: 58px;
+    background: #3FA2F7;
+    position: absolute;
+    right: 1px;
+    border: none;
+    margin-top: 1px;
+    border-top-right-radius:3px ;
+    border-bottom-right-radius:3px ;
+}
+.Form9text{
+    margin-right: 30px;
+    color: #297FCA;
+}
+.Form9text > h3{
+    ont-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+}
+.Form9text > p{
+    font-size: 16px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.contact8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact8Contain{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto ;
+
+}
+.contact8Letters{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #297FCA;
+    mix-blend-mode: normal;
+    opacity: 0.8
+}
+.firstcontain>h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: -2px;
+    color: #297FCA;
+}
+
+.lastcontain > div {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #297FCA;
+}
+.contact8Icons{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+}
+
+.Footer{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+.FooterContein{
+    width: 80%;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+}
+.FooterMenu{
+
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin: 20px 40px 0 30px;
+}
+.FotterH4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    color: #297FCA;
+}
+.FotterLenguage{
+
+}
+
+@media  (max-width: 1200px){
+    .Facebook{
+        margin: 0 auto;
+    }
+    .iconsDiv{
+        flex-wrap: wrap;
+    }
+    .oneHeaderDiv{
+        width: 50%;
+    }
+    .Contains2Div{
+        flex-direction: column;
+    }
+    .Contains2Video{
+        margin-top: 30px;
+    }
+    .Contains2Text{
+        text-align: center;
+    }
+    .input1{
+        margin-top: 20px;
+    }
+    .contact8Contain{
+        display: block;
+    }
+    .contact8Letters{
+        text-align: center ;
+        margin-top: 20px;
+    }
+    .lastcontain{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .contact8Icons{
+        margin: 20px auto;
+    }
+
+    .Form9text{
+        text-align: center;
+    }
+    .FooterContein{
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 720px) {
+
+    .h1{
+        width: 80%;
+        font-size: 32px;
+    }
+    .Facebook{
+       min-width: 177px;
+    }
+    .iconsDiv{
+        display: block;
+        justify-content: center;
+    }
+    .Contains2Text{
+        margin: auto;
+    }
+    .Contains2Text >h3{
+        font-size: 32px;
+    }
+    .Contents3conteiner>div{
+        margin: auto;
+    }
+    .Contents3conteiner>h3{
+        font-size: 32px;
+    }
+    .Contents3text{
+        font-size: 20px;
+    }
+    .Form8 >h3{
+        font-size: 32px;
+    }
+    .contact8Letters >h3{
+        font-size: 32px;
+    }
+    .Form9{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .Form9Conteiner{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .Form9text{
+        margin: auto;
+    }
+    .input1{
+       width: 320px;
+    }
+    .oneHeaderDiv{
+        margin: 20px auto;
+    }
+
+    .Form8{
+       text-align: center
+    }
+
+    .Footer{
+        flex-direction: column;
+    }
+
+}
+
+@media  (max-width: 575px){
+    .FooterMenu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .input1{
+        width: 200px;
+    }
+
+    .Contains2Video{
+        max-width: 100px;
+        padding: 0 0;
+    }
+    .Contains2Video>img{
+        width: 28px;
+        height: 45px;
+    }
+    .FooterMenu{
+        width: 100%;
+    }
+}
