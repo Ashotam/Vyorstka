@@ -187,6 +187,8 @@ body {
     height: 60px;
     margin: 60px auto;
     background-color: #3FA2F7;
+    border: none;
+    border-radius: 3px;
 
 }
 .border{
@@ -390,6 +392,8 @@ body {
     background-color: #3FA2F7;
     border:none;
     margin-top: 40px;
+    border-radius: 3px;
+
 }
 .Form8small{
     margin-top: 80px;
@@ -427,6 +431,7 @@ body {
     background: url(img/Icon.jpg) no-repeat scroll 20px 21px;
     border: 1px solid black;
     border-radius: 4px;
+    padding-left: 40px;
 
 }
 
